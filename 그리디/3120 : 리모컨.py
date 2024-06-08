@@ -10,9 +10,7 @@ changeTemperature = abs(targetTemperature - nowTemperature)
 
 count = 0
 
-while True:
-    if changeTemperature == 0:
-        break
+while changeTemperature != 0:
 
     tenBtnCount = int(changeTemperature / tenBtn)
     count += tenBtnCount
@@ -39,4 +37,3 @@ while True:
         changeTemperature -= oneBtnCount * oneBtn
 
 print(count)
-
