@@ -36,6 +36,11 @@ for sorted_cal in sorted_toppings_cal:
 
 print(best_pizza_result)
 
+"""
+더 빨리 정답을 내기 위해서는 큰 값부터 하나하나 계산하는것보다
+작은 수를 하나씩 소거하면서 나머지를 더하는게 더 빠르게 정답을 찾을지도 모르겠다.
+"""
+
 
 
 
